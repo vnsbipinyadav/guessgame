@@ -1,3 +1,4 @@
+"use strict";
 let checkBtn = document.getElementById("check");
 let number = document.getElementById("number");
 let guess = document.getElementById("guess");
