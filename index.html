@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Guess My Number Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+
+</head>
+
+<body>
+    <div class="above_text">
+        <button class="again_btn" id="again">Again!</button>
+        <p>
+            &ltBetween 1 and 20&gt;
+        </p>
+    </div>
+    <h1>Guess My Number!</h1>
+    <hr>
+    <div class="ques_mark" id="number">?
+        <!-- <div id="number">?</div> -->
+    </div>
+    <div class="botton_section">
+        <div class="left_section">
+            <input type="number" id="guess" />
+            <button id="check">Check!</button>
+        </div>
+        <div class="right_section">
+            <h5 id="message">Start quessing...</h5>
+            <p><i class="fa fa-star" aria-hidden="true"></i> Score: <span id="score">20</span></p>
+            <p><i class="fa fa-trophy" aria-hidden="true"></i> Highscore: <span id="highscore">0</span></p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

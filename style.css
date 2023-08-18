@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #722F37;
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+.above_text {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.above_text button {
+    background-color: white;
+    width: 20%;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Press Start 2P', sans-serif;
+    border: none;
+}
+
+.above_text button:hover {
+    background-color: lightgray;
+}
+
+.above_text p {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin: 80px 20px;
+}
+
+hr {
+    width: 100%;
+    border: 5px solid white;
+    margin: 100px 0px;
+    position: relative;
+}
+
+.ques_mark {
+    background-color: white;
+    /* width: 12%; */
+    padding: 40px;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    left: 45%;
+    top: 34%;
+    transform: translate(45% 34%);
+    font-size: 30px;
+}
+
+.botton_section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left_section {
+    text-align: center;
+}
+
+.left_section input {
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px 30px;
+    /* background-color: #722F37; */
+    border: 2px solid white;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+.left_section button {
+    padding: 12px 20px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Press Start 2P', sans-serif;
+    border: none;
+}
+
+.left_section button:hover {
+    background-color: lightgray;
+}
+
+.right_section h5 {
+    color: white;
+    margin-bottom: 40px;
+}
+
+.right_section p {
+    color: white;
+    margin-top: 20px;
+    font-size: 10px;
+}
+
+.fa {
+    color: red;
+}
